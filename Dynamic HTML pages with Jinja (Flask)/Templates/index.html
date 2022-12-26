@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Guess Test Website</title>
+</head>
+<body>
+    <h1>Hello {{ person_name }}</h1>
+    <h2>I think you are {{ gender }}</h2>
+    <h3>And maybe {{ age }} years old</h3>
+    <p>Random Number: {{ num }}</p>
+    <p>{{ 5 * 6 }}</p>
+<a href="{{ url_for('get_blog', num=3) }}">Go to Blog</a>
+</body>
+<footer>
+  <p>Copyright {{ year }}. Built by Joseph at the cloudcodesandsecurity.</p>
+</footer>
+</html>
